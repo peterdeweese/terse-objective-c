@@ -39,7 +39,6 @@
 		9836A9641633882900CFA6BB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9836A96C1633882A00CFA6BB /* terse-objective-c-macTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "terse-objective-c-macTests-Info.plist"; sourceTree = "<group>"; };
 		9836A96E1633882A00CFA6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9836A9701633882A00CFA6BB /* terse_objective_c_macTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = terse_objective_c_macTests.h; sourceTree = "<group>"; };
 		9836A9711633882A00CFA6BB /* terse_objective_c_macTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = terse_objective_c_macTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +124,6 @@
 		9836A96A1633882A00CFA6BB /* terse-objective-c-macTests */ = {
 			isa = PBXGroup;
 			children = (
-				9836A9701633882A00CFA6BB /* terse_objective_c_macTests.h */,
 				9836A9711633882A00CFA6BB /* terse_objective_c_macTests.m */,
 				9836A96B1633882A00CFA6BB /* Supporting Files */,
 			);

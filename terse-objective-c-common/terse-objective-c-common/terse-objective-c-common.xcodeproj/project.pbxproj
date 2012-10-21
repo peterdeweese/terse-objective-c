@@ -52,7 +52,6 @@
 		9836A99A1633886100CFA6BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9836A9A21633886200CFA6BB /* terse-objective-c-commonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "terse-objective-c-commonTests-Info.plist"; sourceTree = "<group>"; };
 		9836A9A41633886200CFA6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9836A9A61633886200CFA6BB /* terse_objective_c_commonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = terse_objective_c_commonTests.h; sourceTree = "<group>"; };
 		9836A9A71633886200CFA6BB /* terse_objective_c_commonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = terse_objective_c_commonTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +128,6 @@
 		9836A9A01633886100CFA6BB /* terse-objective-c-commonTests */ = {
 			isa = PBXGroup;
 			children = (
-				9836A9A61633886200CFA6BB /* terse_objective_c_commonTests.h */,
 				9836A9A71633886200CFA6BB /* terse_objective_c_commonTests.m */,
 				9836A9A11633886200CFA6BB /* Supporting Files */,
 			);
