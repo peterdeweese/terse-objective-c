@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'terse-objective-c-mac' target in the 'terse-objective-c-mac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

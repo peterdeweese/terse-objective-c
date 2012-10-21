@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9836A9531633882900CFA6BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A9521633882900CFA6BB /* Cocoa.framework */; };
+		9836A95D1633882900CFA6BB /* terse_objective_c_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 9836A95C1633882900CFA6BB /* terse_objective_c_mac.m */; };
+		9836A9651633882A00CFA6BB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A9641633882900CFA6BB /* SenTestingKit.framework */; };
+		9836A9661633882A00CFA6BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A9521633882900CFA6BB /* Cocoa.framework */; };
+		9836A9691633882A00CFA6BB /* libterse-objective-c-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A94F1633882900CFA6BB /* libterse-objective-c-mac.a */; };
+		9836A96F1633882A00CFA6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9836A96D1633882A00CFA6BB /* InfoPlist.strings */; };
+		9836A9721633882A00CFA6BB /* terse_objective_c_macTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9836A9711633882A00CFA6BB /* terse_objective_c_macTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9836A9671633882A00CFA6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9836A9461633882900CFA6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9836A94E1633882900CFA6BB;
+			remoteInfo = "terse-objective-c-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9836A94F1633882900CFA6BB /* libterse-objective-c-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libterse-objective-c-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9836A9521633882900CFA6BB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9836A9551633882900CFA6BB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9836A9561633882900CFA6BB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9836A9571633882900CFA6BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9836A95A1633882900CFA6BB /* terse-objective-c-mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "terse-objective-c-mac-Prefix.pch"; sourceTree = "<group>"; };
+		9836A95B1633882900CFA6BB /* terse_objective_c_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = terse_objective_c_mac.h; sourceTree = "<group>"; };
+		9836A95C1633882900CFA6BB /* terse_objective_c_mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = terse_objective_c_mac.m; sourceTree = "<group>"; };
+		9836A9631633882900CFA6BB /* terse-objective-c-macTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "terse-objective-c-macTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9836A9641633882900CFA6BB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9836A96C1633882A00CFA6BB /* terse-objective-c-macTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "terse-objective-c-macTests-Info.plist"; sourceTree = "<group>"; };
+		9836A96E1633882A00CFA6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9836A9701633882A00CFA6BB /* terse_objective_c_macTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = terse_objective_c_macTests.h; sourceTree = "<group>"; };
+		9836A9711633882A00CFA6BB /* terse_objective_c_macTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = terse_objective_c_macTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9836A94C1633882900CFA6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9836A9531633882900CFA6BB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9836A95F1633882900CFA6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9836A9651633882A00CFA6BB /* SenTestingKit.framework in Frameworks */,
+				9836A9661633882A00CFA6BB /* Cocoa.framework in Frameworks */,
+				9836A9691633882A00CFA6BB /* libterse-objective-c-mac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9836A9441633882900CFA6BB = {
+			isa = PBXGroup;
+			children = (
+				9836A9581633882900CFA6BB /* terse-objective-c-mac */,
+				9836A96A1633882A00CFA6BB /* terse-objective-c-macTests */,
+				9836A9511633882900CFA6BB /* Frameworks */,
+				9836A9501633882900CFA6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9836A9501633882900CFA6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9836A94F1633882900CFA6BB /* libterse-objective-c-mac.a */,
+				9836A9631633882900CFA6BB /* terse-objective-c-macTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9836A9511633882900CFA6BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9836A9521633882900CFA6BB /* Cocoa.framework */,
+				9836A9641633882900CFA6BB /* SenTestingKit.framework */,
+				9836A9541633882900CFA6BB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9836A9541633882900CFA6BB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9836A9551633882900CFA6BB /* AppKit.framework */,
+				9836A9561633882900CFA6BB /* CoreData.framework */,
+				9836A9571633882900CFA6BB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9836A9581633882900CFA6BB /* terse-objective-c-mac */ = {
+			isa = PBXGroup;
+			children = (
+				9836A95B1633882900CFA6BB /* terse_objective_c_mac.h */,
+				9836A95C1633882900CFA6BB /* terse_objective_c_mac.m */,
+				9836A9591633882900CFA6BB /* Supporting Files */,
+			);
+			path = "terse-objective-c-mac";
+			sourceTree = "<group>";
+		};
+		9836A9591633882900CFA6BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9836A95A1633882900CFA6BB /* terse-objective-c-mac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9836A96A1633882A00CFA6BB /* terse-objective-c-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				9836A9701633882A00CFA6BB /* terse_objective_c_macTests.h */,
+				9836A9711633882A00CFA6BB /* terse_objective_c_macTests.m */,
+				9836A96B1633882A00CFA6BB /* Supporting Files */,
+			);
+			path = "terse-objective-c-macTests";
+			sourceTree = "<group>";
+		};
+		9836A96B1633882A00CFA6BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9836A96C1633882A00CFA6BB /* terse-objective-c-macTests-Info.plist */,
+				9836A96D1633882A00CFA6BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9836A94D1633882900CFA6BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9836A94E1633882900CFA6BB /* terse-objective-c-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9836A9751633882A00CFA6BB /* Build configuration list for PBXNativeTarget "terse-objective-c-mac" */;
+			buildPhases = (
+				9836A94B1633882900CFA6BB /* Sources */,
+				9836A94C1633882900CFA6BB /* Frameworks */,
+				9836A94D1633882900CFA6BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "terse-objective-c-mac";
+			productName = "terse-objective-c-mac";
+			productReference = 9836A94F1633882900CFA6BB /* libterse-objective-c-mac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9836A9621633882900CFA6BB /* terse-objective-c-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9836A9781633882A00CFA6BB /* Build configuration list for PBXNativeTarget "terse-objective-c-macTests" */;
+			buildPhases = (
+				9836A95E1633882900CFA6BB /* Sources */,
+				9836A95F1633882900CFA6BB /* Frameworks */,
+				9836A9601633882900CFA6BB /* Resources */,
+				9836A9611633882900CFA6BB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9836A9681633882A00CFA6BB /* PBXTargetDependency */,
+			);
+			name = "terse-objective-c-macTests";
+			productName = "terse-objective-c-macTests";
+			productReference = 9836A9631633882900CFA6BB /* terse-objective-c-macTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9836A9461633882900CFA6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Peter DeWeese";
+			};
+			buildConfigurationList = 9836A9491633882900CFA6BB /* Build configuration list for PBXProject "terse-objective-c-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9836A9441633882900CFA6BB;
+			productRefGroup = 9836A9501633882900CFA6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9836A94E1633882900CFA6BB /* terse-objective-c-mac */,
+				9836A9621633882900CFA6BB /* terse-objective-c-macTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9836A9601633882900CFA6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9836A96F1633882A00CFA6BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9836A9611633882900CFA6BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9836A94B1633882900CFA6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9836A95D1633882900CFA6BB /* terse_objective_c_mac.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9836A95E1633882900CFA6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9836A9721633882A00CFA6BB /* terse_objective_c_macTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9836A9681633882A00CFA6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9836A94E1633882900CFA6BB /* terse-objective-c-mac */;
+			targetProxy = 9836A9671633882A00CFA6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9836A96D1633882A00CFA6BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9836A96E1633882A00CFA6BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9836A9731633882A00CFA6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9836A9741633882A00CFA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9836A9761633882A00CFA6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "terse-objective-c-mac/terse-objective-c-mac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9836A9771633882A00CFA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "terse-objective-c-mac/terse-objective-c-mac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9836A9791633882A00CFA6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "terse-objective-c-mac/terse-objective-c-mac-Prefix.pch";
+				INFOPLIST_FILE = "terse-objective-c-macTests/terse-objective-c-macTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9836A97A1633882A00CFA6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "terse-objective-c-mac/terse-objective-c-mac-Prefix.pch";
+				INFOPLIST_FILE = "terse-objective-c-macTests/terse-objective-c-macTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9836A9491633882900CFA6BB /* Build configuration list for PBXProject "terse-objective-c-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9836A9731633882A00CFA6BB /* Debug */,
+				9836A9741633882A00CFA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9836A9751633882A00CFA6BB /* Build configuration list for PBXNativeTarget "terse-objective-c-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9836A9761633882A00CFA6BB /* Debug */,
+				9836A9771633882A00CFA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9836A9781633882A00CFA6BB /* Build configuration list for PBXNativeTarget "terse-objective-c-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9836A9791633882A00CFA6BB /* Debug */,
+				9836A97A1633882A00CFA6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9836A9461633882900CFA6BB /* Project object */;
+}
