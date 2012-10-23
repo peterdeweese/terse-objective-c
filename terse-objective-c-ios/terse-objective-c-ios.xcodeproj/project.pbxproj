@@ -13,9 +13,22 @@
 		9836A92C163387EC00CFA6BB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A92B163387EC00CFA6BB /* SenTestingKit.framework */; };
 		9836A92E163387EC00CFA6BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A92D163387EC00CFA6BB /* UIKit.framework */; };
 		9836A92F163387EC00CFA6BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A91C163387EC00CFA6BB /* Foundation.framework */; };
-		9836A932163387EC00CFA6BB /* libterse-objective-c-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A919163387EC00CFA6BB /* libterse-objective-c-ios.a */; };
 		9836A938163387EC00CFA6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9836A936163387EC00CFA6BB /* InfoPlist.strings */; };
 		9836A93B163387EC00CFA6BB /* terse_objective_c_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9836A93A163387EC00CFA6BB /* terse_objective_c_iosTests.m */; };
+		9836A9DB1633A0AE00CFA6BB /* NSDate+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 9836A9DA1633A0AE00CFA6BB /* NSDate+terse_ios.m */; };
+		9836A9DF1633A47300CFA6BB /* NSDate_terse_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9836A9DE1633A47300CFA6BB /* NSDate_terse_iosTests.m */; };
+		9836A9E01633A79200CFA6BB /* terse-objective-c-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9836A919163387EC00CFA6BB /* terse-objective-c-ios.a */; };
+		98A9A56116361CBA00468761 /* TerseBoundDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9A55C16361CBA00468761 /* TerseBoundDictionary.m */; };
+		98A9A56216361CBA00468761 /* TerseBoundUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9A55E16361CBA00468761 /* TerseBoundUserDefaults.m */; };
+		98A9A56316361CBA00468761 /* TerseDynamicMethodResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9A56016361CBA00468761 /* TerseDynamicMethodResolver.m */; };
+		98CC7A161634BC360027FFBB /* UIView+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A151634BC360027FFBB /* UIView+terse_ios.m */; };
+		98CC7A1A1634C1B50027FFBB /* NSArray+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A191634C1B50027FFBB /* NSArray+terse_ios.m */; };
+		98CC7A1D1634C5FA0027FFBB /* UIToolbar+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A1C1634C5FA0027FFBB /* UIToolbar+terse_ios.m */; };
+		98CC7A1F1634C63F0027FFBB /* NSArray_terse_iosTests.m in Resources */ = {isa = PBXBuildFile; fileRef = 98CC7A1E1634C63F0027FFBB /* NSArray_terse_iosTests.m */; };
+		98CC7A241634CC7A0027FFBB /* NSArray_terse_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A1E1634C63F0027FFBB /* NSArray_terse_iosTests.m */; };
+		98CC7A271634CE460027FFBB /* UIBarButtonItem+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A261634CE460027FFBB /* UIBarButtonItem+terse_ios.m */; };
+		98CC7A2A1634CF8A0027FFBB /* UIDevice+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A291634CF8A0027FFBB /* UIDevice+terse_ios.m */; };
+		98CC7A2D1634D0F90027FFBB /* NSBundle+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A2C1634D0F80027FFBB /* NSBundle+terse_ios.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9836A919163387EC00CFA6BB /* libterse-objective-c-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libterse-objective-c-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9836A919163387EC00CFA6BB /* terse-objective-c-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "terse-objective-c-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9836A91C163387EC00CFA6BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9836A920163387EC00CFA6BB /* terse-objective-c-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "terse-objective-c-ios-Prefix.pch"; sourceTree = "<group>"; };
 		9836A921163387EC00CFA6BB /* terse_objective_c_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = terse_objective_c_ios.h; sourceTree = "<group>"; };
@@ -53,6 +66,28 @@
 		9836A935163387EC00CFA6BB /* terse-objective-c-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "terse-objective-c-iosTests-Info.plist"; sourceTree = "<group>"; };
 		9836A937163387EC00CFA6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9836A93A163387EC00CFA6BB /* terse_objective_c_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = terse_objective_c_iosTests.m; sourceTree = "<group>"; };
+		9836A9D91633A0AE00CFA6BB /* NSDate+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+terse_ios.h"; path = "Categories/NSDate+terse_ios.h"; sourceTree = "<group>"; };
+		9836A9DA1633A0AE00CFA6BB /* NSDate+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+terse_ios.m"; path = "Categories/NSDate+terse_ios.m"; sourceTree = "<group>"; };
+		9836A9DE1633A47300CFA6BB /* NSDate_terse_iosTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDate_terse_iosTests.m; path = Categories/NSDate_terse_iosTests.m; sourceTree = "<group>"; };
+		98A9A55B16361CBA00468761 /* TerseBoundDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerseBoundDictionary.h; sourceTree = "<group>"; };
+		98A9A55C16361CBA00468761 /* TerseBoundDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerseBoundDictionary.m; sourceTree = "<group>"; };
+		98A9A55D16361CBA00468761 /* TerseBoundUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerseBoundUserDefaults.h; sourceTree = "<group>"; };
+		98A9A55E16361CBA00468761 /* TerseBoundUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerseBoundUserDefaults.m; sourceTree = "<group>"; };
+		98A9A55F16361CBA00468761 /* TerseDynamicMethodResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerseDynamicMethodResolver.h; sourceTree = "<group>"; };
+		98A9A56016361CBA00468761 /* TerseDynamicMethodResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerseDynamicMethodResolver.m; sourceTree = "<group>"; };
+		98CC7A141634BC360027FFBB /* UIView+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+terse_ios.h"; path = "Categories/UIView+terse_ios.h"; sourceTree = "<group>"; };
+		98CC7A151634BC360027FFBB /* UIView+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+terse_ios.m"; path = "Categories/UIView+terse_ios.m"; sourceTree = "<group>"; };
+		98CC7A181634C1B50027FFBB /* NSArray+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+terse_ios.h"; path = "Categories/NSArray+terse_ios.h"; sourceTree = "<group>"; };
+		98CC7A191634C1B50027FFBB /* NSArray+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+terse_ios.m"; path = "Categories/NSArray+terse_ios.m"; sourceTree = "<group>"; };
+		98CC7A1B1634C5FA0027FFBB /* UIToolbar+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+terse_ios.h"; path = "Categories/UIToolbar+terse_ios.h"; sourceTree = "<group>"; };
+		98CC7A1C1634C5FA0027FFBB /* UIToolbar+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+terse_ios.m"; path = "Categories/UIToolbar+terse_ios.m"; sourceTree = "<group>"; };
+		98CC7A1E1634C63F0027FFBB /* NSArray_terse_iosTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArray_terse_iosTests.m; path = Categories/NSArray_terse_iosTests.m; sourceTree = "<group>"; };
+		98CC7A251634CE460027FFBB /* UIBarButtonItem+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+terse_ios.h"; path = "Categories/UIBarButtonItem+terse_ios.h"; sourceTree = "<group>"; };
+		98CC7A261634CE460027FFBB /* UIBarButtonItem+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+terse_ios.m"; path = "Categories/UIBarButtonItem+terse_ios.m"; sourceTree = "<group>"; };
+		98CC7A281634CF890027FFBB /* UIDevice+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+terse_ios.h"; path = "Categories/UIDevice+terse_ios.h"; sourceTree = "<group>"; };
+		98CC7A291634CF8A0027FFBB /* UIDevice+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+terse_ios.m"; path = "Categories/UIDevice+terse_ios.m"; sourceTree = "<group>"; };
+		98CC7A2B1634D0F80027FFBB /* NSBundle+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+terse_ios.h"; path = "Categories/NSBundle+terse_ios.h"; sourceTree = "<group>"; };
+		98CC7A2C1634D0F80027FFBB /* NSBundle+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+terse_ios.m"; path = "Categories/NSBundle+terse_ios.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9836A9E01633A79200CFA6BB /* terse-objective-c-ios.a in Frameworks */,
 				9836A92C163387EC00CFA6BB /* SenTestingKit.framework in Frameworks */,
 				9836A92E163387EC00CFA6BB /* UIKit.framework in Frameworks */,
 				9836A92F163387EC00CFA6BB /* Foundation.framework in Frameworks */,
-				9836A932163387EC00CFA6BB /* libterse-objective-c-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +126,7 @@
 		9836A91A163387EC00CFA6BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9836A919163387EC00CFA6BB /* libterse-objective-c-ios.a */,
+				9836A919163387EC00CFA6BB /* terse-objective-c-ios.a */,
 				9836A92A163387EC00CFA6BB /* terse-objective-c-iosTests.octest */,
 			);
 			name = Products;
@@ -110,6 +145,8 @@
 		9836A91E163387EC00CFA6BB /* terse-objective-c-ios */ = {
 			isa = PBXGroup;
 			children = (
+				98A9A55A16361CBA00468761 /* Classes */,
+				9836A9D816339FDB00CFA6BB /* Categories */,
 				9836A921163387EC00CFA6BB /* terse_objective_c_ios.h */,
 				9836A923163387EC00CFA6BB /* terse_objective_c_ios.m */,
 				9836A91F163387EC00CFA6BB /* Supporting Files */,
@@ -128,6 +165,7 @@
 		9836A933163387EC00CFA6BB /* terse-objective-c-iosTests */ = {
 			isa = PBXGroup;
 			children = (
+				9836A9DC1633A43100CFA6BB /* Categories */,
 				9836A93A163387EC00CFA6BB /* terse_objective_c_iosTests.m */,
 				9836A934163387EC00CFA6BB /* Supporting Files */,
 			);
@@ -141,6 +179,49 @@
 				9836A936163387EC00CFA6BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9836A9D816339FDB00CFA6BB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				98CC7A181634C1B50027FFBB /* NSArray+terse_ios.h */,
+				98CC7A191634C1B50027FFBB /* NSArray+terse_ios.m */,
+				9836A9D91633A0AE00CFA6BB /* NSDate+terse_ios.h */,
+				9836A9DA1633A0AE00CFA6BB /* NSDate+terse_ios.m */,
+				98CC7A1B1634C5FA0027FFBB /* UIToolbar+terse_ios.h */,
+				98CC7A1C1634C5FA0027FFBB /* UIToolbar+terse_ios.m */,
+				98CC7A141634BC360027FFBB /* UIView+terse_ios.h */,
+				98CC7A151634BC360027FFBB /* UIView+terse_ios.m */,
+				98CC7A251634CE460027FFBB /* UIBarButtonItem+terse_ios.h */,
+				98CC7A261634CE460027FFBB /* UIBarButtonItem+terse_ios.m */,
+				98CC7A281634CF890027FFBB /* UIDevice+terse_ios.h */,
+				98CC7A291634CF8A0027FFBB /* UIDevice+terse_ios.m */,
+				98CC7A2B1634D0F80027FFBB /* NSBundle+terse_ios.h */,
+				98CC7A2C1634D0F80027FFBB /* NSBundle+terse_ios.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		9836A9DC1633A43100CFA6BB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9836A9DE1633A47300CFA6BB /* NSDate_terse_iosTests.m */,
+				98CC7A1E1634C63F0027FFBB /* NSArray_terse_iosTests.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		98A9A55A16361CBA00468761 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98A9A55B16361CBA00468761 /* TerseBoundDictionary.h */,
+				98A9A55C16361CBA00468761 /* TerseBoundDictionary.m */,
+				98A9A55D16361CBA00468761 /* TerseBoundUserDefaults.h */,
+				98A9A55E16361CBA00468761 /* TerseBoundUserDefaults.m */,
+				98A9A55F16361CBA00468761 /* TerseDynamicMethodResolver.h */,
+				98A9A56016361CBA00468761 /* TerseDynamicMethodResolver.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +241,7 @@
 			);
 			name = "terse-objective-c-ios";
 			productName = "terse-objective-c-ios";
-			productReference = 9836A919163387EC00CFA6BB /* libterse-objective-c-ios.a */;
+			productReference = 9836A919163387EC00CFA6BB /* terse-objective-c-ios.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9836A929163387EC00CFA6BB /* terse-objective-c-iosTests */ = {
@@ -215,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9836A938163387EC00CFA6BB /* InfoPlist.strings in Resources */,
+				98CC7A1F1634C63F0027FFBB /* NSArray_terse_iosTests.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +324,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9836A924163387EC00CFA6BB /* terse_objective_c_ios.m in Sources */,
+				9836A9DB1633A0AE00CFA6BB /* NSDate+terse_ios.m in Sources */,
+				98CC7A161634BC360027FFBB /* UIView+terse_ios.m in Sources */,
+				98CC7A1A1634C1B50027FFBB /* NSArray+terse_ios.m in Sources */,
+				98CC7A1D1634C5FA0027FFBB /* UIToolbar+terse_ios.m in Sources */,
+				98CC7A271634CE460027FFBB /* UIBarButtonItem+terse_ios.m in Sources */,
+				98CC7A2A1634CF8A0027FFBB /* UIDevice+terse_ios.m in Sources */,
+				98CC7A2D1634D0F90027FFBB /* NSBundle+terse_ios.m in Sources */,
+				98A9A56116361CBA00468761 /* TerseBoundDictionary.m in Sources */,
+				98A9A56216361CBA00468761 /* TerseBoundUserDefaults.m in Sources */,
+				98A9A56316361CBA00468761 /* TerseDynamicMethodResolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CC7A241634CC7A0027FFBB /* NSArray_terse_iosTests.m in Sources */,
 				9836A93B163387EC00CFA6BB /* terse_objective_c_iosTests.m in Sources */,
+				9836A9DF1633A47300CFA6BB /* NSDate_terse_iosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,9 +420,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/terse_objective_c_ios.dst;
+				EXECUTABLE_PREFIX = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "terse-objective-c-ios/terse-objective-c-ios-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_CODE_SIGN_FLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -338,9 +434,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/terse_objective_c_ios.dst;
+				EXECUTABLE_PREFIX = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "terse-objective-c-ios/terse-objective-c-ios-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_CODE_SIGN_FLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -356,6 +454,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "terse-objective-c-ios/terse-objective-c-ios-Prefix.pch";
 				INFOPLIST_FILE = "terse-objective-c-iosTests/terse-objective-c-iosTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -371,6 +470,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "terse-objective-c-ios/terse-objective-c-ios-Prefix.pch";
 				INFOPLIST_FILE = "terse-objective-c-iosTests/terse-objective-c-iosTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -395,6 +495,7 @@
 				9836A940163387EC00CFA6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9836A941163387EC00CFA6BB /* Build configuration list for PBXNativeTarget "terse-objective-c-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +504,7 @@
 				9836A943163387EC00CFA6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

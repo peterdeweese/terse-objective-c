@@ -1,13 +1,14 @@
 #import <SenTestingKit/SenTestingKit.h>
+#import "terse_objective_c_ios.h"
 
 @interface terse_objective_c_iosTests : SenTestCase
 @end
 
 @implementation terse_objective_c_iosTests
 
-- (void)testExample
+-(void)testFormatMacro
 {
-    STFail(@"Unit tests are not implemented yet in terse-objective-c-iosTests");
+    STAssertEqualObjects($format(@"%d %@", 86, @"test"), @"86 test", nil);
 }
 
 @end
