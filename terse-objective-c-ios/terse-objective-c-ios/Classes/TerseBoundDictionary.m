@@ -1,25 +1,29 @@
 #import "TerseBoundDictionary.h"
 
-@implementation TerseBoundDictionary
+@interface TerseBoundDictionary()
 
-@synthesize dictionary;
+@property(nonatomic, readwrite) NSDictionary* dictionary;
+
+@end
+
+@implementation TerseBoundDictionary
 
 -(id)initWithDictionary:(NSDictionary*)d
 {
     if(self = [super init])
-        dictionary = d;
+        self.dictionary = d;
     return self;
 }
 
 -(id)dynamicGet:(NSString*)methodName
 {
-    return [dictionary objectForKey:methodName];
+    return self.dictionary[methodName];
 }
 
 -(void)dynamicSet:(NSString*)methodName object:(id)o
 {
-    if([dictionary isKindOfClass:NSMutableDictionary.class])
-    [((NSMutableDictionary*)dictionary) setObject:o forKey:methodName];
+    if([self.dictionary isKindOfClass:NSMutableDictionary.class])
+        ((NSMutableDictionary*)self.dictionary)[methodName] = o;
 }
 
 @end
