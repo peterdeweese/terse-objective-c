@@ -19,10 +19,6 @@
 		98A9A56116361CBA00468761 /* TerseBoundDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9A55C16361CBA00468761 /* TerseBoundDictionary.m */; };
 		98A9A56216361CBA00468761 /* TerseBoundUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9A55E16361CBA00468761 /* TerseBoundUserDefaults.m */; };
 		98A9A56316361CBA00468761 /* TerseDynamicMethodResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A9A56016361CBA00468761 /* TerseDynamicMethodResolver.m */; };
-		98CC7A161634BC360027FFBB /* UIView+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A151634BC360027FFBB /* UIView+terse_ios.m */; };
-		98CC7A1D1634C5FA0027FFBB /* UIToolbar+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A1C1634C5FA0027FFBB /* UIToolbar+terse_ios.m */; };
-		98CC7A271634CE460027FFBB /* UIBarButtonItem+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A261634CE460027FFBB /* UIBarButtonItem+terse_ios.m */; };
-		98CC7A2A1634CF8A0027FFBB /* UIDevice+terse_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CC7A291634CF8A0027FFBB /* UIDevice+terse_ios.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,14 +62,6 @@
 		98A9A55E16361CBA00468761 /* TerseBoundUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerseBoundUserDefaults.m; sourceTree = "<group>"; };
 		98A9A55F16361CBA00468761 /* TerseDynamicMethodResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerseDynamicMethodResolver.h; sourceTree = "<group>"; };
 		98A9A56016361CBA00468761 /* TerseDynamicMethodResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerseDynamicMethodResolver.m; sourceTree = "<group>"; };
-		98CC7A141634BC360027FFBB /* UIView+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+terse_ios.h"; path = "Categories/UIView+terse_ios.h"; sourceTree = "<group>"; };
-		98CC7A151634BC360027FFBB /* UIView+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+terse_ios.m"; path = "Categories/UIView+terse_ios.m"; sourceTree = "<group>"; };
-		98CC7A1B1634C5FA0027FFBB /* UIToolbar+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+terse_ios.h"; path = "Categories/UIToolbar+terse_ios.h"; sourceTree = "<group>"; };
-		98CC7A1C1634C5FA0027FFBB /* UIToolbar+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+terse_ios.m"; path = "Categories/UIToolbar+terse_ios.m"; sourceTree = "<group>"; };
-		98CC7A251634CE460027FFBB /* UIBarButtonItem+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+terse_ios.h"; path = "Categories/UIBarButtonItem+terse_ios.h"; sourceTree = "<group>"; };
-		98CC7A261634CE460027FFBB /* UIBarButtonItem+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+terse_ios.m"; path = "Categories/UIBarButtonItem+terse_ios.m"; sourceTree = "<group>"; };
-		98CC7A281634CF890027FFBB /* UIDevice+terse_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+terse_ios.h"; path = "Categories/UIDevice+terse_ios.h"; sourceTree = "<group>"; };
-		98CC7A291634CF8A0027FFBB /* UIDevice+terse_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+terse_ios.m"; path = "Categories/UIDevice+terse_ios.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				98A9A55A16361CBA00468761 /* Classes */,
-				9836A9D816339FDB00CFA6BB /* Categories */,
 				9836A921163387EC00CFA6BB /* terse_objective_c_ios.h */,
 				9836A923163387EC00CFA6BB /* terse_objective_c_ios.m */,
 				9836A91F163387EC00CFA6BB /* Supporting Files */,
@@ -164,21 +151,6 @@
 				9836A936163387EC00CFA6BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9836A9D816339FDB00CFA6BB /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				98CC7A1B1634C5FA0027FFBB /* UIToolbar+terse_ios.h */,
-				98CC7A1C1634C5FA0027FFBB /* UIToolbar+terse_ios.m */,
-				98CC7A141634BC360027FFBB /* UIView+terse_ios.h */,
-				98CC7A151634BC360027FFBB /* UIView+terse_ios.m */,
-				98CC7A251634CE460027FFBB /* UIBarButtonItem+terse_ios.h */,
-				98CC7A261634CE460027FFBB /* UIBarButtonItem+terse_ios.m */,
-				98CC7A281634CF890027FFBB /* UIDevice+terse_ios.h */,
-				98CC7A291634CF8A0027FFBB /* UIDevice+terse_ios.m */,
-			);
-			name = Categories;
 			sourceTree = "<group>";
 		};
 		98A9A55A16361CBA00468761 /* Classes */ = {
@@ -293,10 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9836A924163387EC00CFA6BB /* terse_objective_c_ios.m in Sources */,
-				98CC7A161634BC360027FFBB /* UIView+terse_ios.m in Sources */,
-				98CC7A1D1634C5FA0027FFBB /* UIToolbar+terse_ios.m in Sources */,
-				98CC7A271634CE460027FFBB /* UIBarButtonItem+terse_ios.m in Sources */,
-				98CC7A2A1634CF8A0027FFBB /* UIDevice+terse_ios.m in Sources */,
 				98A9A56116361CBA00468761 /* TerseBoundDictionary.m in Sources */,
 				98A9A56216361CBA00468761 /* TerseBoundUserDefaults.m in Sources */,
 				98A9A56316361CBA00468761 /* TerseDynamicMethodResolver.m in Sources */,
